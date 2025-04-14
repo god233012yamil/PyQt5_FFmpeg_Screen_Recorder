@@ -1,0 +1,12 @@
+2025-04-14 19:44:15,721 - INFO - Application started.
+2025-04-14 19:44:16,255 - INFO - Found ffmpeg: ffmpeg version N-112963-g03ac6aa627-20231213 Copyright (c) 2000-2023 the FFmpeg developers
+2025-04-14 19:44:34,302 - DEBUG - Screen index: 2
+2025-04-14 19:44:37,576 - DEBUG - selected relative screen region: PyQt5.QtCore.QRect(524, 202, 890, 777)
+2025-04-14 19:44:37,577 - DEBUG - selected global screen region: PyQt5.QtCore.QRect(-1396, 202, 890, 777)
+2025-04-14 19:44:43,824 - DEBUG - Recording screen geometry: PyQt5.QtCore.QRect(-1920, 0, 1920, 1080)
+2025-04-14 19:44:43,831 - DEBUG - Recording screen with x offset: -1396
+2025-04-14 19:44:43,832 - DEBUG - Recording screen with y offset: 202
+2025-04-14 19:44:43,832 - DEBUG - Recording screen with resolution: 890x778
+2025-04-14 19:44:57,187 - DEBUG - The key "s" was pressed to stop recording
+2025-04-14 19:44:59,525 - INFO - Recording stopped and saved.
+2025-04-14 19:45:05,601 - INFO - Application finished.
