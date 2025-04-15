@@ -1,4 +1,4 @@
-# 🎥 PyQt5 Screen Recorder with FFmpeg
+# FFmpeg Based Screen Recorder
 
 A powerful, customizable screen recording application built using **PyQt5** and **FFmpeg**. This tool supports full-screen or region-based recording, audio capture from selected devices, global hotkeys, real-time visual overlay, and logs with rotation. Designed for usability, flexibility, and performance — ideal for tutorials, demos, or remote collaboration.
 
@@ -6,7 +6,7 @@ A powerful, customizable screen recording application built using **PyQt5** and 
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [Features](#features)
 - [Requirements](#requirements)
@@ -23,7 +23,7 @@ A powerful, customizable screen recording application built using **PyQt5** and 
 
 ---
 
-## ✅ Features
+## Features
 
 - Record full screen or a selected region
 - Multi-monitor support
@@ -37,7 +37,7 @@ A powerful, customizable screen recording application built using **PyQt5** and 
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 - Windows 10 or 11
 - Python 3.7+
@@ -54,7 +54,7 @@ pip install PyQt5 keyboard
 
 ---
 
-## 💾 Installation
+## Installation
 
 1. Clone this repository:
 
@@ -77,7 +77,7 @@ python screen_recorder.py
 
 ---
 
-## ▶️ Usage
+## Usage
 
 - Select screen, resolution, frame rate, and audio input.
 - Choose output path or accept the default.
@@ -87,7 +87,7 @@ python screen_recorder.py
 
 ---
 
-## 🔁 Basic Workflow
+## Basic Workflow
 
 1. Configure screen, audio, and resolution settings.
 2. (Optional) Select a region using the region selector.
@@ -99,7 +99,7 @@ python screen_recorder.py
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+## ️ Keyboard Shortcuts
 
 | Key | Action         |
 |-----|----------------|
@@ -111,7 +111,7 @@ These shortcuts work globally, even when the app is minimized.
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 .
@@ -125,7 +125,7 @@ These shortcuts work globally, even when the app is minimized.
 
 ---
 
-## 🧠 Classes Overview
+## Classes Overview
 
 - **`ScreenRecorder`** – Main window, GUI layout, and signal connections.
 - **`FFmpegThread`** – Launches and manages FFmpeg in a separate thread.
@@ -136,7 +136,7 @@ These shortcuts work globally, even when the app is minimized.
 
 ---
 
-## 🔧 Technical Details
+## Technical Details
 
 - Uses `QThread` to avoid freezing the GUI during FFmpeg execution.
 - Captures screen with FFmpeg's `gdigrab` (Windows only).
@@ -147,7 +147,7 @@ These shortcuts work globally, even when the app is minimized.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions!
 
@@ -158,15 +158,15 @@ We welcome contributions!
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙌 Acknowledgments
+## Acknowledgments
 
 - [FFmpeg](https://ffmpeg.org/)
 - [PyQt5](https://riverbankcomputing.com/software/pyqt/)
 - [keyboard Python library](https://pypi.org/project/keyboard/)
-- And the open-source community ❤️
+- And the open-source community
