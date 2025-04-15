@@ -10,3 +10,6 @@
 2025-04-14 19:44:57,187 - DEBUG - The key "s" was pressed to stop recording
 2025-04-14 19:44:59,525 - INFO - Recording stopped and saved.
 2025-04-14 19:45:05,601 - INFO - Application finished.
+2025-04-14 19:50:38,419 - INFO - Application started.
+2025-04-14 19:50:38,467 - INFO - Found ffmpeg: ffmpeg version N-112963-g03ac6aa627-20231213 Copyright (c) 2000-2023 the FFmpeg developers
+2025-04-14 19:51:15,266 - INFO - Application finished.

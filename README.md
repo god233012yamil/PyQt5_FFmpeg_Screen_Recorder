@@ -2,7 +2,7 @@
 
 A powerful, customizable screen recording application built using **PyQt5** and **FFmpeg**. This tool supports full-screen or region-based recording, audio capture from selected devices, global hotkeys, real-time visual overlay, and logs with rotation. Designed for usability, flexibility, and performance — ideal for tutorials, demos, or remote collaboration.
 
-![Program Screenshot](./Images/screen_recorder_icon.png)
+![Program Screenshot](./Images/app_screenshot.png)
 
 ---
 
