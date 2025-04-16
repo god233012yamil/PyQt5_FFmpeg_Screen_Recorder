@@ -548,7 +548,7 @@ class ScreenRecorder(QWidget):
                 return False
 
             line = stdout.decode().split('\n')[0]
-            self.logger.info(f"Found ffmpeg: {line}")
+            self.logger.info(f"Found ffmpeg: {line.rstrip()}")
             return True
 
         except Exception as e:
